@@ -18,3 +18,15 @@ services:
     ports:
       - 4002:80
     restart: "no"
+  history:
+    image: video-history
+    build:
+      context: ../video-history
+      dockerfile: Dockerfile-dev
+    container_name: video-history
+    volumes:
+      - /tmp/video-history/npm-cache:/root/.npm:z
+      - ../video-history/src:/usr/src/app/src:z
+    ports:
+      - 4002:80
+    restart: no
