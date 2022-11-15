@@ -5,6 +5,4 @@
 
 # next-streaming
 
-The next-streaming project is comprised of two Docker Compose files that work to package and run several microservices also hosted on GitHub.
-
-Docker version 20.10.17 and Docker Compose 2.7.0 were used for this project in addition to Debian 11 OS running on the Windows Susbsystem for Linux.
+The next-streaming project uses two Docker Compose files that work to package and run several microservices also hosted on GitHub. Terraform is used to create the infrastructure on Microsoft Azure.
