@@ -6,3 +6,5 @@
 # next-streaming
 
 The next-streaming project uses two Docker Compose files that work to package and run several microservices also hosted on GitHub. Terraform is used to create the infrastructure on Microsoft Azure.
+
+![project screenshot](/next-streaming.webp)
